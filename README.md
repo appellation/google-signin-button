@@ -3,7 +3,9 @@
 Scalable implementations of the Google sign-in button, as specified in the [Google sign-in branding guidelines](https://developers.google.com/identity/branding-guidelines). Currently does not support style changes based on CSS pseudo-selectors such as `:hover` or `:focus`.
 
 ## Usage
-Specify the location of your Google logo for `span.google-icon`.
+1. `bower install google-signin-button`
+2. Specify the location of your Google logo for `span.google-icon`
+3. Insert the button HTML where you want the button to appear
 
 In order to adjust the dimensions of the button, change the `$height` in `button.sass`. Width is set to 100%, but it can be modified by changing `$width`. **Note:** the dimensions of the button are not dependent on its width, so watch out for text overflow issues.
 
