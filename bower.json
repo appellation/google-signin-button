@@ -1,0 +1,22 @@
+{
+  "name": "google-signin-button",
+  "homepage": "https://github.com/appellation/google-signin-button",
+  "authors": [
+    "appellation <nelson.will@live.com>"
+  ],
+  "description": "Custom Google sign-in buttons",
+  "main": "",
+  "keywords": [
+    "google",
+    "sign-in",
+    "branding"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
