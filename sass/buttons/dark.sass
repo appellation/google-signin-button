@@ -1,25 +1,17 @@
-// modify these
-$height: 40px
-$width: 100%
-$logo: url('/images/g-logo.png')
+@import "../config"
 
-// modify this with caution
-$radius: $height / 40
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:500')
-
-button.google-auth
+button.google-auth.google-dark
   display: block
   background: #4285f4
   color: #fff
   width: $width
   border-radius: $radius
-  border: #4285f4 solid ($height / 40)
-  box-shadow: ($height / 40) ($height / 40) ($height / 8) 0 #b7b7b7
+  border: #4285f4 solid ratio(1)
+  box-shadow: ratio(1) ratio(1) ratio(5) 0 #b7b7b7
   white-space: nowrap
   text-align: left
   font-family: 'Roboto', sans-serif
-  padding: 0 ($height / 8) 0 0
+  padding: 0 ratio(5) 0 0
 
   &:hover
     cursor: pointer
@@ -27,19 +19,19 @@ button.google-auth
   span.google-icon
     background-image: $logo
     background-color: #fff
-    background-size: $height * (18 / 40)
+    background-size: ratio(18)
     background-repeat: no-repeat
     background-position: 50%
     display: inline-block
     vertical-align: middle
-    width: $height
-    height: $height
+    width: ratio(40)
+    height: ratio(40)
     color: #4285f4
     border-radius: $radius
 
   span.google-text
     display: inline-block
     vertical-align: middle
-    font-size: $height * (14 / 40)
+    font-size: ratio(14)
     font-weight: 500
-    margin-left: $height * (16 / 40)  // 24 (space between the edge of the logo and the start of the text) - 8 (space between edge of the logo and the edge of the whitespace) = 16
+    margin-left: ratio(16)  // 24 (space between the edge of the logo and the start of the text) - 8 (space between edge of the logo and the edge of the whitespace) = 16
