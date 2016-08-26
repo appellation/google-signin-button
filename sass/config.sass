@@ -1,12 +1,12 @@
 // modify these
-$height: 80px
-$width: 50%
+$height: 40px
+$width: 100%
 $logo: url('../images/g-logo.svg')
-
-// modify this with caution
-$radius: $height / 40
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:500')
 
 @function ratio($numerator)
   @return $height * ($numerator / 40)
+
+// modify this with caution
+$radius: ratio(1)
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:500')
