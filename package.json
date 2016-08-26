@@ -1,0 +1,23 @@
+{
+  "name": "google-signin-button",
+  "version": "1.0.0",
+  "description": "Scalable implementations of the Google sign-in button, as specified in the [Google sign-in branding guidelines](https://developers.google.com/identity/branding-guidelines). Currently does not support style changes based on CSS pseudo-selectors such as `:hover` or `:focus`.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appellation/google-signin-button.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appellation/google-signin-button/issues"
+  },
+  "homepage": "https://github.com/appellation/google-signin-button#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-sass": "^1.2.1"
+  }
+}
