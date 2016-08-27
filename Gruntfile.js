@@ -27,11 +27,8 @@ module.exports = function(grunt)    {
             },
             dist: {
                 files: [{
-                    expand: true,
-                    cwd: 'css/',
-                    src: ['**/*.css', '!**/*.min.css'],
-                    dest: 'css/',
-                    ext: '.min.css'
+                    src: ['css/**/*.css'],
+                    dest: 'dist/g-signin.css'
                 }]
             }
         }

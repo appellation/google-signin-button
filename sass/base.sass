@@ -23,13 +23,13 @@
   width: ratio(40)
   height: ratio(40)
   border-radius: $radius
+  margin-right: ratio(16)  // 24 (space between the edge of the logo and the start of the text) - 8 (space between edge of the logo and the edge of the whitespace) = 16
 
 @mixin text($color, $opacity: 1)
   display: inline-block
   vertical-align: middle
   font-size: ratio(14)
   font-weight: 500
-  margin-left: ratio(16)  // 24 (space between the edge of the logo and the start of the text) - 8 (space between edge of the logo and the edge of the whitespace) = 16
   text-transform: uppercase
   color: $color
   opacity: $opacity
