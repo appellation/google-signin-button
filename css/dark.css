@@ -1,20 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:500");
 button.google-auth.google-dark {
   display: block;
-  background: #4285f4;
-  color: #fff;
   width: 100%;
   border-radius: 1px;
-  border: #4285f4 solid 1px;
-  box-shadow: 1px 1px 5px 0 #b7b7b7;
-  white-space: nowrap;
-  text-align: left;
-  font-family: 'Roboto', sans-serif;
   padding: 0 5px 0 0;
   outline: none;
-  text-transform: uppercase; }
-  button.google-auth.google-dark:hover {
-    cursor: pointer; }
+  cursor: pointer;
+  background: #4285f4;
+  border: #4285f4 solid 1px;
+  box-shadow: 1px 1px 5px 0 #b7b7b7;
+  text-align: left; }
   button.google-auth.google-dark span.google-icon {
     background-image: url("../images/g-logo.svg");
     background-color: #fff;
@@ -25,13 +20,17 @@ button.google-auth.google-dark {
     vertical-align: middle;
     width: 40px;
     height: 40px;
-    color: #4285f4;
     border-radius: 1px; }
   button.google-auth.google-dark span.google-text {
     display: inline-block;
     vertical-align: middle;
     font-size: 14px;
     font-weight: 500;
-    margin-left: 16px; }
+    margin-left: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 1;
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif; }
 
 /*# sourceMappingURL=dark.css.map */

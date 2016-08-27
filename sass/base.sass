@@ -1,0 +1,37 @@
+@import "config"
+
+@mixin button($background)
+  display: block
+  width: $width
+  border-radius: $radius
+  padding: 0 ratio(5) 0 0
+  outline: none
+  cursor: pointer
+  background: $background
+  border: $background solid ratio(1)
+  box-shadow: ratio(1) ratio(1) ratio(5) 0 #b7b7b7
+  text-align: left
+
+@mixin icon
+  background-image: $logo
+  background-color: #fff
+  background-size: ratio(18)
+  background-repeat: no-repeat
+  background-position: 50%
+  display: inline-block
+  vertical-align: middle
+  width: ratio(40)
+  height: ratio(40)
+  border-radius: $radius
+
+@mixin text($color, $opacity: 1)
+  display: inline-block
+  vertical-align: middle
+  font-size: ratio(14)
+  font-weight: 500
+  margin-left: ratio(16)  // 24 (space between the edge of the logo and the start of the text) - 8 (space between edge of the logo and the edge of the whitespace) = 16
+  text-transform: uppercase
+  color: $color
+  opacity: $opacity
+  white-space: nowrap
+  font-family: 'Roboto', sans-serif
