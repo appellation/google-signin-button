@@ -3,7 +3,9 @@ button.google-auth.google-light {
   display: block;
   width: 100%;
   border-radius: 1px;
-  padding: 0 5px 0 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
   outline: none;
   cursor: pointer;
   background: #fff;
@@ -30,7 +32,7 @@ button.google-auth.google-light {
     text-transform: uppercase;
     color: #000;
     opacity: 0.54;
-    white-space: nowrap;
-    font-family: 'Roboto', sans-serif; }
+    font-family: 'Roboto', sans-serif;
+    padding-right: 8px; }
 
 /*# sourceMappingURL=light.css.map */

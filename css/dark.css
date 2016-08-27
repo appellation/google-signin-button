@@ -3,7 +3,9 @@ button.google-auth.google-dark {
   display: block;
   width: 100%;
   border-radius: 1px;
-  padding: 0 5px 0 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
   outline: none;
   cursor: pointer;
   background: #4285f4;
@@ -30,7 +32,7 @@ button.google-auth.google-dark {
     text-transform: uppercase;
     color: #fff;
     opacity: 1;
-    white-space: nowrap;
-    font-family: 'Roboto', sans-serif; }
+    font-family: 'Roboto', sans-serif;
+    padding-right: 8px; }
 
 /*# sourceMappingURL=dark.css.map */
