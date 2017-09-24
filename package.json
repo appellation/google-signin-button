@@ -4,7 +4,7 @@
   "description": "Custom Google sign-in buttons",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "grunt"
+    "prepare": "gulp"
   },
   "repository": {
     "type": "git",
