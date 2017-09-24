@@ -17,11 +17,13 @@
   },
   "homepage": "https://github.com/appellation/google-signin-button#readme",
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-cssmin": "^1.0.1",
-    "grunt-sass": "^1.2.1"
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0"
   },
-  "main": "dist/g-signin.css",
+  "main": "dist/buttons.min.css",
   "keywords": [
     "google",
     "signin"
