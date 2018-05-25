@@ -1,10 +1,10 @@
 // modify these
-$height: 40px
-$width: 100%
-$logo: url('../images/g-logo.svg')
+$height: 40px !default
+$width: 100% !default
+$logo: url('../images/g-logo.svg') !default
 
 @function ratio($numerator)
   @return $height * ($numerator / 40)
 
 // modify this with caution
-$radius: ratio(1)
+$radius: ratio(1) !default
