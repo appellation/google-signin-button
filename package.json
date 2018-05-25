@@ -1,6 +1,6 @@
 {
   "name": "google-signin-button",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Custom Google sign-in buttons",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
