@@ -12,4 +12,4 @@ In order to adjust the dimensions of the button, change the `$height` in `button
 You should additionally import the [Roboto](https://fonts.google.com/specimen/Roboto) font for proper text styling.
 
 ### CSS only
-If you're using only the CSS, changing the height from the default `40px` will involve some math; reference the SASS file for some hints. However, the same usage steps apply.
+If you're using only the CSS, changing the height from the default `40px` will involve some math; refer to the SASS file for some hints. However, the same usage steps apply.
